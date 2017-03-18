@@ -1,8 +1,9 @@
 menu:
     主页: /
-    文章: /archives/
-    GitHub(最大的同性交友网站): https://github.com/coderneko
-    # Rss: /atom.xml
+    文章: /archives
+    留言板: /msgboard
+    GitHub: https://github.com/coderneko
+    Rss: /atom.xml
 
 favicon: /favicon.png
 logo: /favicon.png
