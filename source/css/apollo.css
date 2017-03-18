@@ -533,7 +533,7 @@ header .nav-list-item a {
 code,
 pre {
     font-size: 0.8em;
-    background-color: #c0c0c0;
+    background-color: #002b36;
     font-family: 'Roboto Mono', Monaco, courier, monospace
 }
 
@@ -542,7 +542,7 @@ pre {
     margin: 1em 0;
     border-radius: 2px;
     line-height: 1.1em;
-    background-color: #959595;
+    background-color: #002b36;
     overflow-x: auto
 }
 
@@ -586,6 +586,8 @@ pre {
 .highlight.php .code:after,
 .highlight.c .code:after,
 .highlight.cpp .code:after,
+.highlight.csharp .code:after,
+.highlight.brainfuck .code:after,
 .highlight.ts .code:after {
     position: absolute;
     top: 0;
@@ -671,27 +673,35 @@ pre {
     content: "TS"
 }
 
+.highlight.csharp .code:after {
+    content: "C#"
+}
+
+.highlight.brainfuck .code:after {
+    content: "BrainF@ck"
+}
+
 .highlight.cpp .code:after {
     content: 'C++'
 }
 
 pre {
-    color: #83a
+    color: #839496
 }
 
 pre .function .keyword,
 pre .constant {
-    color: #0092db
+    color: #2973b7
 }
 
 pre .keyword,
 pre .attribute {
-    color: #e96900
+    color: #2973b7
 }
 
 pre .number,
 pre .literal {
-    color: #ae81ff
+    color: #2aa198
 }
 
 pre .tag,
@@ -714,7 +724,7 @@ pre .regexp {
 }
 
 pre .title {
-    color: #83B917
+    color: #268bd2
 }
 
 pre .tag .value,
@@ -753,7 +763,7 @@ pre .doctype,
 pre .shebang,
 pre .apache .sqbracket,
 pre .tex .formula {
-    color: #b3b3b3
+    color: #859900
 }
 
 pre .deletion {
@@ -875,4 +885,29 @@ footer .copyright a:hover {
     src: url("../font/sourcesanspro.woff2") format("woff2"), url("../font/sourcesanspro.woff") format("woff");
     font-weight: normal;
     font-style: normal
+}
+
+div.ds-comment-body {
+    color: #c0c0c0;
+}
+
+div.ds-login-buttons {
+    color: #c0c0c0;
+}
+
+div.ds-meta {
+    display: none
+}
+
+p.ds-powered-by {
+    display: none
+}
+
+#ds-thread #ds-reset li.ds-tab a{
+    text-shadow: 0 1px 0 #000 !important;
+    color: #c0c0c0;
+}
+
+#ds-hot-posts {
+    display: none
 }

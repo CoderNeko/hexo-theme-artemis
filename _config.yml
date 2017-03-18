@@ -1,7 +1,7 @@
 menu:
-    Blog: /
-    Archive: /archives/
-    GitHub: https://github.com/coderneko
+    主页: /
+    文章: /archives/
+    GitHub(最大的同性交友网站): https://github.com/coderneko
     # Rss: /atom.xml
 
 favicon: /favicon.png
@@ -10,11 +10,11 @@ logo: /favicon.png
 # Comment
 # e.g disqus: seansun
 disqus:
-duoshuo:
+duoshuo: coderneko
 
 # Analytics
 # google-analytics:
-ga: UA-65933410-1
+ga: UA-93917158-1
 
 # Copyright Infomation
-startyear: 2015
+startyear: 2017
