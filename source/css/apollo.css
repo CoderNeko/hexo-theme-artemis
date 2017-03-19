@@ -880,6 +880,14 @@ footer .copyright a:hover {
     color: #888
 }
 
+p._copyright{
+    float: left
+}
+
+p.sitelink{
+    float: right
+}
+
 @font-face {
     font-family: 'sourcesanspro';
     src: url("../font/sourcesanspro.woff2") format("woff2"), url("../font/sourcesanspro.woff") format("woff");
